@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ task.title }}</title>
+</head>
+<body>
+    <h2>{{ task.title }}</h2>
+    <p>{{ task.description }}</p>
+    <a href="{% url 'task_edit' task.id %}">Edit</a>
+</body>
+</html>
